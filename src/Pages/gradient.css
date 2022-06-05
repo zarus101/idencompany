@@ -1,0 +1,16 @@
+
+.gradientSection{
+    padding: 50px;
+    background: transparent linear-gradient(270deg,#FF6600 0%,#EE3024 100%) 0% 0% no-repeat padding-box;
+    color: white;
+}
+.gradientSection .right{
+    border-left: 1px solid #FDB515;   
+}
+
+
+.gradientSection .section-heading h1{
+    color: #FDB515;
+    font-weight:500 ;
+    font-size: 38px;
+}

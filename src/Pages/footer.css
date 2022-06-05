@@ -1,0 +1,39 @@
+.footer-section{
+    background-color: #242424;
+    color: white;
+}
+
+.footer-section .row{
+    padding-top: 45px;
+    
+}
+.footer-section .col-sm{
+    padding-right: 10px;
+
+}
+.footer-section .col-sm h3{
+    font-size: 20px;
+    padding-left: 29px;
+}
+.footer-section .col-sm ul{
+    list-style: none;
+    cursor: pointer;
+
+}
+.footer-section .col-sm li{
+    padding-bottom: 20px;
+}
+
+.footer-section .horizontal-line{
+    background-color: red;
+    height: 0.5px;
+
+}
+.last-footer{
+    padding: 25px 50px;
+}
+.last-footer h3{
+    font-size: 14px;
+}
+
+

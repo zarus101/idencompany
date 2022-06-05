@@ -1,0 +1,23 @@
+.advantage_section{
+    padding: 50px;
+    background-color: #FDF8F4;
+}
+.advantage_section .section-title{
+    font-size: 38px;
+    color: #000;
+    font-weight: 700;
+}
+.onlineTextDiv p{
+    font-size: 18px;
+    color: #696666;
+}
+.section-title span{
+    color: #f60;
+}
+.card-image{
+    width: 100px;
+    height: 100px;
+  
+    justify-content: center;
+    margin: 20px 62px;
+}

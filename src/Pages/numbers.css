@@ -1,0 +1,25 @@
+:root{
+    --primary:  transparent linear-gradient(270deg,#FF6600 0%,#EE3024 100%) 0% 0% no-repeat padding-box;
+}
+
+.section-wrapper{
+    padding: 50px;
+    background-color: #f4ece6;;
+}
+
+.layout{
+    display: flex;
+}
+.line-items{
+    width: 20%;
+    padding: 0 24px;
+    text-align: center;
+}
+.value{
+   color:  rgb(245, 70, 27);
+   
+}
+.value h2{
+    font-weight: 700;
+   font-size: 38px;
+}
