@@ -34,7 +34,7 @@ const MainNavbar = () => {
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? 'fas fa-times': 'fas fa-bars'}/>
         </div>
-        <ul className={click ? 'nav-meny active': 'nav-menu'}>
+        <ul className={click ? 'nav-menu active': 'nav-menu'}>
         <div class="dropdown show">
           <Link className='btn btn-secondary dropdown-toggle'role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
           Courses

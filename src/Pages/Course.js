@@ -4,8 +4,11 @@ import CourseCard from './CourseCard'
 import './course.css'
 
 const Course = () => {
+  const [click, setClick]= useState(false)
 
     const [coursecategory, setCourseCategory]= useState(CoursesCategoryApi)
+
+    const handleClick=()=> setClick(!click);
 
     const FilterItems=(category)=>{
         const updatedItems=CoursesCategoryApi.filter((curElem)=>{
@@ -19,17 +22,19 @@ const Course = () => {
     <>
     
   {/* main-course category starts */}
-  <section className='category'>
-  <p class="section-subtitle">Course Category</p>
-
-  <h2 class="section-title">Explore Popular Courses</h2>
-
+  <section className='course-section'>
   <div className="container">
+    <div className="programText">
+  <h1 class="section-subtitle"> <span> Programmes </span>equipped for the future</h1>
+
+  <p class="section-title">Our programmes are comprehensive educational experiences that develop and enhance skill sets that can be applied to diverse job profiles</p>
+  </div>
+  
   <nav className='course-nav'>
       <div className="navbtn-group">
-        <button className='navbtn-group__item active'  onClick={()=>{FilterItems("web-development")}}>Web-Development</button>
-        <button className='navbtn-group__item' onClick={()=>{FilterItems("mobile-development")}}>Mobile-Development</button>
-        <button className='navbtn-group__item ' onClick={()=>{FilterItems("digital-marketing")}}>Digital-Marketing</button>
+        <button className='navbtn-group__item active'  onClick={()=>{FilterItems("web-development")}}>Bachelor's Degree</button>
+        <button className='navbtn-group__item' onClick={()=>{FilterItems("mobile-development")}}>Master Degree</button>
+        <button className='navbtn-group__item ' onClick={()=>{FilterItems("digital-marketing")}}>Professional Certificate</button>
 
     
       </div>
@@ -39,17 +44,20 @@ const Course = () => {
 
 
   
-  </div>
+  
 
-  <div className="container">
-    <div className="row justify-content-center">
+ 
+    <div className="row ">
       
-  <CourseCard coursecategory={coursecategory}/>
+      <CourseCard coursecategory={coursecategory}/>
+     
+      
+  
 
 
     </div>
-    
-  </div>
+    </div>
+ 
 
   </section>
     </>

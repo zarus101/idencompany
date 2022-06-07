@@ -1,14 +1,57 @@
 /*-----------------------------------*\
   #COURSE CATEGORY
 \*-----------------------------------*/
+.programText{
+  text-align: center;
+  padding-bottom: 70px;
+  
+}
 
+.section-subtitle{
+  font-size: 38px;
+    color: #000;
+    font-weight: 700;
+}
+.section-subtitle span{
+  color: #f60;
+}
+
+
+ .course-nav{
+  display: flex;
+  overflow: hidden;
+  border-bottom: 1px solid #f60;
+
+}
+
+.course-nav button{
+  float: left;
+  border-radius: 4px 4px 0 0;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 24px;
+  transition: 0.3s;
+  background: none;
+  border: none!important;
+  font-weight: 700;
+
+}
+
+button .active{
+  background: linear-gradient(90deg,#ED3024 0%,#FF6600 100%)!important;
+  color: #fff;
+}
+
+
+
+
+
+
+
+/* main-program starts */
 .category { padding: var(--py) var(--px); }
 
-.category .section-subtitle {
-  text-align: center;
-  margin-bottom: 15px;
-  font-size: var(--fs-1);
-}
+
 
 .category .section-title {
   text-align: center;

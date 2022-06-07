@@ -1,17 +1,19 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import './coursecard.css'
 
 
 
 const CourseCard = ({coursecategory}) => {
   return (
    <>
-
+<section className="card-section">
           {coursecategory.map((curElem, id)=>{
             return(
               <>
-              <div class="col-lg-4 col-md-7 col-sm-8">
+              
+              <div class="col-sm cards">
               <div key={id} class="single-course text-center mt-30 wow " data-wow-duration="1s" data-wow-delay="0.2s">
                 <div class="course-image">
                   <img src={curElem.course_image} alt="" />
@@ -30,10 +32,12 @@ const CourseCard = ({coursecategory}) => {
                 </div>
             </div> 
         </div>
+       
              </>
             )
           })}
-  
+
+   </section>
     </>
   )
 }
