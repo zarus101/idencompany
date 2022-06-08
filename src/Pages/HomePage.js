@@ -11,6 +11,7 @@ import Gradient from './Gradient'
 import Testimonials from './Testimonials'
 
 
+
 const HomePage = () => {
   return (
    <>
@@ -59,7 +60,6 @@ const HomePage = () => {
 <Gradient/>
 <Testimonials/>
 <Contact/>
-
 <Footer/>
    </>
   )
