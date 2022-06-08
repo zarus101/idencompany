@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from './Footer'
-import MainNavbar from './MainNavbar'
+// import Footer from './Footer'
+// import MainNavbar from './MainNavbar'
 
 const Aboutus = () => {
   return (

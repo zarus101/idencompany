@@ -13,7 +13,7 @@ const Advantage = () => {
             </div>
             <CardGroup>
   <Card>
-    <Card.Img  variant="top" src="./images/logo1.png" />
+    <Card.Img className='card-image' variant="top" src="./images/logo1.png" />
     <Card.Body>
       <Card.Title>Empowered Education</Card.Title>
      
@@ -23,7 +23,7 @@ const Advantage = () => {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img  variant="top" src="./images/logo2.png" />
+    <Card.Img className='card-image'  variant="top" src="./images/logo2.png" />
     <Card.Body>
       <Card.Title>Learn at your pace</Card.Title>
       
@@ -33,7 +33,7 @@ const Advantage = () => {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img  variant="top" src="./images/logo3.png" />
+    <Card.Img className='card-image' variant="top" src="./images/logo3.png" />
     <Card.Body>
       <Card.Title>Experiences faculty members & real world mentors</Card.Title>
    
@@ -43,7 +43,7 @@ const Advantage = () => {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img  variant="top" src="./images/logo4.png" />
+    <Card.Img className='card-image' variant="top" src="./images/logo4.png" />
     <Card.Body>
       <Card.Title>Enhances Digital learning Platform</Card.Title>
    

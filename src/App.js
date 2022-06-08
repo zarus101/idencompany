@@ -1,4 +1,4 @@
-
+import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import HomePage from './Pages/HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -7,14 +7,14 @@ import Aboutus from './Pages/Aboutus';
 
 function App() {
  return (
-      <>
+      
       <Router>
            <Switch>
-                <Route exact='true' path='/' component={HomePage}/>
-                <Route exact='true' path='/aboutus' compenent={Aboutus}/>
+                <Route  path='/' component={HomePage}/>
+                <Route  path='/aboutus' component={Aboutus}/>
            </Switch>
       </Router>
-      </>
+    
        
  )
 }

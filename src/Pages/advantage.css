@@ -14,8 +14,8 @@
 .section-title span{
     color: #f60;
 }
-.card-image{
-    width: 100px;
+.card-image, .card-img-top{
+    width:30%;
     height: 100px;
   
     justify-content: center;
