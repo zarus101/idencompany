@@ -9,6 +9,8 @@ import Footer from './Footer'
 import Contact from './Contact'
 import Gradient from './Gradient'
 import Testimonials from './Testimonials'
+import Virtual from './Virtual'
+import IndiaStudy from './IndiaStudy'
 
 
 
@@ -55,6 +57,8 @@ const HomePage = () => {
 </Carousel>
 
 <Numbers/>
+<Virtual/>
+<IndiaStudy/>
 <Advantage/> 
 <Course/>
 <Gradient/>
