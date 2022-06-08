@@ -7,9 +7,9 @@ const Advantage = () => {
       <>
       <section className="advantage_section">
           <div className="container">
-            <div class="onlineTextDiv">
-                <h2 class="section-title">The Online Manipal <span class="fontBold orangeColor">advantage</span></h2>
-                <p class="p greyColor">Here's what you can expect from our programmes</p>
+            <div className="onlineTextDiv">
+                <h2 className="section-title">The Online Manipal <span>advantage</span></h2>
+                <p>Here's what you can expect from our programmes</p>
             </div>
             <CardGroup>
   <Card>
