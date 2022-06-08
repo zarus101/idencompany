@@ -15,7 +15,7 @@
     color: #f60;
 }
 .card-image, .card-img-top{
-    width:30%;
+    max-width:40%;
     height: 100px;
   
     justify-content: center;
