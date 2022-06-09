@@ -4,11 +4,11 @@ import CourseCard from './CourseCard'
 import './course.css'
 
 const Course = () => {
-  const [click, setClick]= useState(false)
+  
 
     const [coursecategory, setCourseCategory]= useState(CoursesCategoryApi)
 
-    const handleClick=()=> setClick(!click);
+    
 
     const FilterItems=(category)=>{
         const updatedItems=CoursesCategoryApi.filter((curElem)=>{
@@ -32,9 +32,9 @@ const Course = () => {
   
   <nav className='course-nav'>
       <div className="navbtn-group">
-        <button className='navbtn-group__item active'  onClick={()=>{FilterItems("web-development")}}>Bachelor's Degree</button>
-        <button className='navbtn-group__item' onClick={()=>{FilterItems("mobile-development")}}>Master Degree</button>
-        <button className='navbtn-group__item ' onClick={()=>{FilterItems("digital-marketing")}}>Professional Certificate</button>
+        <button className='navbtn-group__item active'  onClick={()=>{FilterItems("bachelor")}}>Bachelor's Degree</button>
+        <button className='navbtn-group__item' onClick={()=>{FilterItems("master")}}>Master Degree</button>
+        <button className='navbtn-group__item ' onClick={()=>{FilterItems("PGCP")}}>Professional Certificate</button>
 
     
       </div>

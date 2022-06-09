@@ -1,9 +1,8 @@
 
 import React, { useState } from 'react'
-import { NavDropdown } from 'react-bootstrap';
+
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
-import './Mainnavbar.css'
+import { Button } from './Button';import './Mainnavbar.css'
 
 
 const MainNavbar = () => {
@@ -26,7 +25,7 @@ const MainNavbar = () => {
 
   return (
     <>
-    <nav className="navbar">
+    <nav className="main-navbar">
       <div className="navbar-container">
         <Link to='/' className="navbar-logo">
           IDEN 
@@ -35,19 +34,19 @@ const MainNavbar = () => {
           <i className={click ? 'fas fa-times': 'fas fa-bars'}/>
         </div>
         <ul className={click ? 'nav-menu active': 'nav-menu'}>
-        <div class="dropdown show">
+        {/* <div class="dropdown show">
           <Link className='btn btn-secondary dropdown-toggle'role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
           Courses
-          </Link>
+          </Link> */}
   
 
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+  {/* <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <Link className='dropdown-item'>Course1</Link>
     <Link className='dropdown-item'>Course2</Link>
     <Link className='dropdown-item'>Course3</Link>
     
-  </div>
-</div>
+  </div> */}
+{/* </div> */}
       
           <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>

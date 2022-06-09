@@ -6,7 +6,46 @@
 
 }
 .card-section .cards{
-    padding: 50px 0;
+   
     background-color: aliceblue;
     margin-left: 15px;
+    border: 1px solid orangered;
+}
+.single-couse{
+    height: 100%;
+    width: 100%;
+}
+.card-section .cards .single-course .course-title{
+    height: 50%;
+    width: 100%;
+    background-color:#FFF5EE;
+    padding: 24px;
+}
+.card-section .cards .course-title h1{
+   font-size: 24px;
+   min-height: 93px;
+}
+.course-info{
+    background: #dbdbdb;
+    padding: 24px;
+    font-size: 16px!important;
+}
+.course-info .layout{
+    overflow: hidden;
+    font-size: 16px!important;
+}
+.course-image{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-image p{
+    font-size: 12px;
+}
+.card-section .cards .single-course .course-title:hover{
+   
+    background-color:orangered;
+    color: white;
+    
 }

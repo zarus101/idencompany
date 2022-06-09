@@ -1,0 +1,14 @@
+.nav_row{
+    height: 30px;
+    width: 100%;
+  
+    color:white;
+    background-color: #242424;
+}
+.navbar_top{
+    padding-top: 9px;
+    margin-left: 10px;
+}
+.navbar_top h1{
+    font-size: 13px;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import MainNavbar from './MainNavbar'
 import "./homepage.css"
-import { Carousel } from 'react-bootstrap'
+
 import Numbers from './Numbers'
 import Advantage from './Advantage'
 import Course from './Course'
@@ -11,14 +11,22 @@ import Gradient from './Gradient'
 import Testimonials from './Testimonials'
 import Virtual from './Virtual'
 import IndiaStudy from './IndiaStudy'
+import Work from './Work'
+import WorkAdvantage from './WorkAdvantage'
+import NavTop from './NavTop'
+
+import Carousels from './Carousel'
 
 
 
 const HomePage = () => {
   return (
    <>
+   <NavTop/>
    <MainNavbar/>
-   <Carousel className='carousel'>
+   <Carousels/>
+  
+    {/* <Carousel className='carousel'>
   <Carousel.Item className='carousel-item'>
     <img
       className="d-block w-100"
@@ -33,7 +41,7 @@ const HomePage = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="./images/carousel2.jpg"
+      src="./images/image2.jpg"
       alt="Second slide"
     />
 
@@ -45,7 +53,7 @@ const HomePage = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="./images/carousel3.jpg"
+      src="./images/image3.jpg"
       alt="Third slide"
     />
 
@@ -54,14 +62,16 @@ const HomePage = () => {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>
+</Carousel> */}
 
 <Numbers/>
 <Virtual/>
-<IndiaStudy/>
 <Advantage/> 
+<IndiaStudy/>
 <Course/>
+<Work/>
 <Gradient/>
+<WorkAdvantage/>
 <Testimonials/>
 <Contact/>
 <Footer/>

@@ -8,7 +8,7 @@ const Advantage = () => {
       <section className="advantage_section">
           <div className="container">
             <div className="onlineTextDiv">
-                <h2 className="section-title">The Online Manipal <span>advantage</span></h2>
+                <h2 className="section-title">The Virtual Learning <span>advantage</span></h2>
                 <p>Here's what you can expect from our programmes</p>
             </div>
             <CardGroup>

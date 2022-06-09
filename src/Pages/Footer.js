@@ -20,19 +20,19 @@ const Footer = () => {
     <div class="col-sm">
         <h3>Online Courses</h3>
         <ul>
-            <li className="useful_links">Home</li>
-            <li className="useful_links">Student Experience</li>
-            <li className="useful_links">About Us</li>
-            <li className="useful_links">Help Centre</li>
-            <li className="useful_links">Blogs</li>
+            <li className="useful_links">Management</li>
+            <li className="useful_links">Information Technology</li>
+            <li className="useful_links">Commerce</li>
+            <li className="useful_links">Data Science</li>
+            <li className="useful_links">Business Analytics</li>
         </ul>
       
 
     </div>
     <div class="col-sm">
     <ul>
-            <li className="useful_links">Home</li>
-            <li className="useful_links">Student Experience</li>
+            <li className="useful_links">Media & Journalism</li>
+            <li className="useful_links">Cloud Computing</li>
             <li className="useful_links">About Us</li>
             <li className="useful_links">Help Centre</li>
             <li className="useful_links">Blogs</li>
@@ -42,25 +42,12 @@ const Footer = () => {
 
      
     </div>
+    
     <div class="col-sm">
     <ul>
-            <li className="useful_links">Home</li>
-            <li className="useful_links">Student Experience</li>
-            <li className="useful_links">About Us</li>
-            <li className="useful_links">Help Centre</li>
-            <li className="useful_links">Blogs</li>
-        </ul>
-      
-
-     
-    </div>
-    <div class="col-sm">
-    <ul>
-            <li className="useful_links">Home</li>
-            <li className="useful_links">Student Experience</li>
-            <li className="useful_links">About Us</li>
-            <li className="useful_links">Help Centre</li>
-            <li className="useful_links">Blogs</li>
+            <li className="useful_links">Location: Koteshwor, Kathmandu</li>
+            <li className="useful_links">Contact No: 9851120617</li>
+           
         </ul>
       
 

@@ -1,14 +1,15 @@
-.navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+.main-navbar {
+    background: white;
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
+    border-bottom: 1px solid orangered;
   }
   
   .navbar-container {
@@ -20,7 +21,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: black;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -51,7 +52,7 @@
   }
   
   .nav-links {
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -64,8 +65,9 @@
       margin-top: 24px;
   }
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid orangered;
     transition: all 0.2s ease-out;
+    color: orangered;
   }
   
   .fa-bars {
@@ -114,7 +116,7 @@
   
     .nav-links:hover {
       background-color: #fff;
-      color: #242424;
+      color: orangered;
       border-radius: 0;
     }
   

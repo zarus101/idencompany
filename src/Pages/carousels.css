@@ -1,0 +1,14 @@
+.carousel{
+    position: absolute;
+}
+.carousel img{
+    height: 100%;
+    width: 100%;
+    position: inherit;
+
+}
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+    position: inherit;
+}

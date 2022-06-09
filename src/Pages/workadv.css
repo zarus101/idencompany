@@ -1,0 +1,10 @@
+.workText .row .col-sm{
+    border: 1px solid gray;
+    padding: 30px;
+}
+
+.workText .row .col-sm h1{
+    font-size: 20px;
+    color: rgb(245, 70, 27);
+    font-weight: 700;
+}
