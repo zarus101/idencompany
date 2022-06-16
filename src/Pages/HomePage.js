@@ -64,7 +64,7 @@ const HomePage = () => {
   </Carousel.Item>
 </Carousel> */}
 
-<Numbers/>
+{/* <Numbers/> */}
 <Virtual/>
 <Advantage/> 
 <IndiaStudy/>

@@ -11,7 +11,7 @@ const Testimonials = () => {
             <div className="row">
                 <div className="col-sm left-side">
                     <div className="text">
-                    <p>As a working woman, managing studies with family responsibilities is very important to me and MUJ supported me to achieve my goals with ease. It is helping me grow in my career by providing high quality business education where we get to participate in open house discussions, live guest lectures, and webinars from top notch industry experts. Faculty members are very well info
+                    <p>As a working , managing studies with family responsibilities is very important to me and MUJ supported me to achieve my goals with ease. It is helping me grow in my career by providing high quality business education where we get to participate in open house discussions, live guest lectures, and webinars from top notch industry experts. Faculty members are very well info
                         rmed and keep students engaged with continuous support and professional training</p>
                     </div>    
                 </div>

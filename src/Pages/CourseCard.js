@@ -39,7 +39,7 @@ const CourseCard = ({coursecategory}) => {
                 <div class="course-image">
                   <div className="cardlogo">
                     <p>Awarded By</p>
-                    <img src="./images/MUJ.svg" alt="" />
+                    {/* <img src="./images/MUJ.svg" alt="" /> */}
                     <i class="lni-baloon"></i>
                   </div>
                   
