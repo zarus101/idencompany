@@ -11,7 +11,7 @@ const Contact = () => {
                     <h1>Enjoy with us</h1>
                     <p>Interested to join our courses?Share your details and we'll get back to you.</p>
                     <p>Location: Koteshor, Kathmandu</p>
-                    <p>Contact No: 9851120617</p>
+                    <p>Contact No:982363426 </p>
                 </div>
                 <div className="col-sm">
                     <form>

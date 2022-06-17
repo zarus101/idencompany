@@ -8,7 +8,7 @@ const NavTop = () => {
         
         <nav className="navbar_top">
             <div className="contact__num">
-                <h1>Contact No:<span>:9851120617 </span></h1>
+                <h1>Contact No:<span>:982363426 </span></h1>
             </div>
         </nav>
         

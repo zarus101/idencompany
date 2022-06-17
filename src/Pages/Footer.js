@@ -46,7 +46,7 @@ const Footer = () => {
     <div class="col-sm">
     <ul>
             <li className="useful_links">Location: Koteshwor, Kathmandu</li>
-            <li className="useful_links">Contact No: 9851120617</li>
+            <li className="useful_links">Contact No: 982363426 </li>
            
         </ul>
       
